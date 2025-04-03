@@ -110,7 +110,7 @@ const stationsList = [
 ];
 
 const signIn = () => {
-  if (password.value === "admin123") {
+  if (password.value === "Yamina123") {
     showSignInModal.value = false;
     fetchAdminData();
     showAdminDashboard.value = true;
